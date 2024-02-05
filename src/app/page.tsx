@@ -11,7 +11,7 @@ export default function Home() {
           className="w-32 h-10 ml-28"
           src="/logo.png"
           alt=""
-          quality={'high'}
+          quality={100}
           width={170}
           height={100}
         />
@@ -20,6 +20,7 @@ export default function Home() {
             className="w-10 h-10"
             src="/qrcode-icon.png"
             alt=""
+            quality={100}
             width={200}
             height={200}
           />
