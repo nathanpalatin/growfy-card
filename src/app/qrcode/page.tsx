@@ -1,3 +1,5 @@
 export default function QrCode() {
-  return <h1>Hello</h1>
+  return (
+    <main className="gradient-top flex min-h-screen flex-col items-center p-12"></main>
+  )
 }
