@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+.bg-home {
+
+  background: url('/background-home.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gradient-top {
+
+  background: linear-gradient(250.81deg, #212548 40.33%, #2E2B8C 81.39%);
+}
+
+.gradient-text {
+  background: linear-gradient(-80.81deg, #9B5A9C 40.33%, #2E2B8C 81.39%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.gradient {
+  background: linear-gradient(20.81deg, #2E2B8C 30.33%, #9B5A9C 91.39%);
+}
+
+.text-est {
+  font-family: Grape Nuts, sans-serif;
+}
