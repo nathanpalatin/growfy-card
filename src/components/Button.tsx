@@ -14,7 +14,7 @@ export function Button({ link, variant, title, ...rest }: ButtonProps) {
     <Link href={link}>
       <button
         type="button"
-        className={`rounded-full items-center flex justify-center gap-2 w-full border-2  ${variant ? 'gradient text-zinc-300 shadow-sm' : 'gradient-text border-purple-900'} p-3`}
+        className={`rounded-full items-center text-sm flex justify-center gap-2 w-full border-2 font-medium  ${variant ? 'gradient text-zinc-300 shadow-sm' : 'gradient-text border-purple-900'} p-3`}
         {...rest}
       >
         {variant ? (
