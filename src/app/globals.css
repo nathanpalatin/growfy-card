@@ -3,7 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-card {
 
+  background: url('/background-card.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .bg-home {
 
