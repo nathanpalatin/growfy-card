@@ -17,6 +17,12 @@
   background-size: cover;
 }
 
+.bg-topo {
+  background: url('/bg-topo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .gradient-top {
 
   background: linear-gradient(250.81deg, #212548 40.33%, #2E2B8C 81.39%);
