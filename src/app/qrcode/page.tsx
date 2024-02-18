@@ -13,7 +13,7 @@ export default function QrCode() {
           </Link>
           <Image src={'/logo.png'} width={120} height={80} alt="" />
         </div>
-        <h1 className="text-zinc-100 text-center text-sm ">
+        <h1 className="text-zinc-100 text-center w-[300px] self-center text-sm ">
           Por favor, escaneie o QR Code com a câmera de seu smartphone:
         </h1>
         <Image
