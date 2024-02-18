@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="bg-topo flex flex-col items-center p-12 mb-20">
+    <main className="bg-topo flex flex-col items-center p-14">
       <div className="flex w-[360px] justify-between ">
         <Image
           className="w-28 h-8 ml-28"
@@ -33,7 +33,7 @@ export default function Home() {
             Doug Alsant
           </h1>
 
-          <div className="flex flex-col relative gap-3 top-4 w-[360px]">
+          <div className="flex flex-col relative gap-3 pb-16 top-4 w-[360px]">
             <h1 className="text-est text-center text-lg text-zinc-800">
               Estrategista em vendas digitais
             </h1>
