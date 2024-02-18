@@ -5,15 +5,15 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="bg-topo flex min-h-screen flex-col items-center p-12">
+    <main className="bg-topo flex flex-col items-center p-12">
       <div className="flex w-[360px] justify-between ">
         <Image
-          className="w-32 h-10 ml-28"
+          className="w-28 h-8 ml-28"
           src="/logo.png"
           alt=""
           quality={100}
-          width={170}
-          height={100}
+          width={150}
+          height={80}
         />
         <Link href={'/qrcode'}>
           <Image
@@ -26,8 +26,8 @@ export default function Home() {
           />
         </Link>
       </div>
-      <div className="bg-zinc-50 absolute flex flex-col top-48 h-screen w-full">
-        <div className=" absolute self-center left-auto -top-12  ">
+      <div className="bg-zinc-50 absolute flex flex-col top-48 w-full">
+        <div className="absolute self-center left-auto -top-20">
           <Avatar />
           <h1 className="gradient-text mt-2 text-center text-2xl">
             Doug Alsant

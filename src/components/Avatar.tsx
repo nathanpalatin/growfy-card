@@ -9,7 +9,7 @@ export function Avatar() {
       quality={100}
       width={200}
       height={200}
-      className="w-52 h-52 self-center mx-auto rounded-full bg-zinc-200 border-4 border-zinc-200 shadow-lg"
+      className="w-52 h-52 self-center mx-auto rounded-full bg-zinc-200 border-4 border-zinc-200 shadow-lg object-cover"
     />
   )
 }
